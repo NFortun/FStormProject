@@ -1,4 +1,4 @@
-package fr.istic.m1.fstorm.modules;
+package fr.istic.m1.fstorm;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -8,10 +8,11 @@ import java.io.IOException;
 import java.util.List;
 
 import fr.istic.m1.fstorm.beans.StormComponent;
+import fr.istic.m1.fstorm.modules.GenerateJavaBolt;
 
-public class Test {
+public class GeneratorJavaTest {
 	List<StormComponent> list;
-	public Test(List<StormComponent> l){
+	public GeneratorJavaTest(List<StormComponent> l){
 		list=l;
 	}
 	public void compute() {
