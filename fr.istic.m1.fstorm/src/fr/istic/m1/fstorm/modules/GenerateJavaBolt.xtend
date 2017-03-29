@@ -4,7 +4,6 @@ import fr.istic.m1.fstorm.beans.StormComponent
 import java.util.ArrayList
 import org.apache.storm.tuple.Tuple
 import java.io.File
-import java.io.FileWriter
 import java.io.FileOutputStream
 import java.io.BufferedOutputStream
 

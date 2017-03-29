@@ -1,10 +1,5 @@
 package fr.istic.m1.fstorm;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.List;
 
 import fr.istic.m1.fstorm.beans.StormComponent;
